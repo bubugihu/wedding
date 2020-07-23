@@ -731,7 +731,7 @@
   }
   @media screen and (max-width: 768px) {
     #fh5co-gallery-list li.one-third {
-      width: 49%;
+      width: 100%;
     }
   }
   @media screen and (max-width: 480px) {

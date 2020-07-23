@@ -37,7 +37,7 @@
 	<link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="{{asset('css/owl-carousel.min.css')}}">
 	<link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
 
 	<!-- Theme style  -->
@@ -63,14 +63,7 @@
 }
     </style>
     <script>
-//         $(window).scroll(function(){
 
-// var $win = $(window);
-// if ($win.scrollTop() > 10) {
-//    audio.play();
-//    alert('abc');
-
-// }});
 function music(){
     // audio.play();
 }
