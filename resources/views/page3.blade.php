@@ -27,24 +27,24 @@
 	<link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 	
 	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
+	<link rel="stylesheet" href="{{asset('css/animate.css')}}">
 	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
+	<link rel="stylesheet" href="{{asset('css/icomoon.css')}}">
 	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="{{asset('css/bootstrap.css')}}"">
 
 	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
+	<link rel="stylesheet" href="{{asset('css/magnific-popup.css')}}">
 
 	<!-- Owl Carousel  -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="{{asset('css/owl.carousel.min.css')}}">
+	<link rel="stylesheet" href="{{asset('css/owl.theme.default.min.css')}}">
 
 	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="{{asset('css/style.css')}}">
 
 	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="{{asset('js/modernizr-2.6.2.min.js')}}"></script>
 
     <style>
         #cancel:hover {
@@ -89,8 +89,6 @@ function music(){
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
 						<li class="active"><a >Bubu's Family</a></li>
-						<li><a >Story</a></li>
-                        <li><a >Contact</a></li>
 					</ul>
 				</div>
 			</div>
@@ -515,7 +513,7 @@ function music(){
 	</div> -->
 
 
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(../images/img_bg_4.jpg);">
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(../images/img3.jpg);">
 		<div  class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
@@ -535,8 +533,11 @@ function music(){
 						</div>
 						<div class="col-md-4 col-sm-4">
 							<div class="form-group">
-								<label for="email" class="sr-only">Email</label>
-								<input type="email" class="form-control" id="email" placeholder="Email">
+								<label for="email" class="sr-only">Relation</label>
+								<select name="relation" class="form-control" id="">
+                                    <option value="bubu" style="color: black">Friend with bubu</option>
+                                    <option value="chacha" style="color: black">Friend with heo</option>
+                                </select>
 							</div>
 						</div>
 						<div class="col-md-4 col-sm-4">
@@ -572,28 +573,28 @@ function music(){
 	</div>
 	
 	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
+	<script src="{{asset('js/jquery.min.js')}}"></script>
 	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
+	<script src="{{asset('js/jquery.easing.1.3.js')}}"></script>
 	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
+	<script src="{{asset('js/bootstrap.min.js')}}"></script>
 	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="{{asset('js/jquery.waypoints.min.js')}}"></script>
 	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
+	<script src="{{asset('js/owl.carousel.min.js')}}"></script>
 	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
+	<script src="{{asset('js/jquery.countTo.js')}}"></script>
 
 	<!-- Stellar -->
-	<script src="js/jquery.stellar.min.js"></script>
+	<script src="{{asset('js/jquery.stellar.min.js')}}"></script>
 	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
+	<script src="{{asset('js/jquery.magnific-popup.min.js')}}"></script>
+	<script src="{{asset('js/magnific-popup-options.js')}}"></script>
 
 	<!-- // <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/0.0.1/prism.min.js"></script> -->
-	<script src="js/simplyCountdown.js"></script>
+	<script src="{{asset('js/simplyCountdown.js')}}"></script>
 	<!-- Main -->
-	<script src="js/main.js"></script>
+	<script src="{{asset('js/main.js')}}"></script>
 
 	<script>
     var d = new Date(new Date("Sep 26, 2020 18:00:00").getTime() + 24 * 60 * 60 * 1000);

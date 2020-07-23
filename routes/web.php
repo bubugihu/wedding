@@ -21,6 +21,13 @@ Route::get('/', function () {
 Route::get('/page3', function(){
     return view('page3');
 });
+/////////////
+Route::get('admin/bubugihu/secret', function (){
+    return view ('admin.index');
+})->name('admin');
+Route::get('admin/customer/listCustomer', function(){
+    return view('admin.customer.listCustomer');
+})->name('list');
 
 
 
