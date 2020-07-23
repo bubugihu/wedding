@@ -77,14 +77,14 @@ function music(){
     </script>
 	</head>
 	<body onscroll="music()">
-        <audio style='display: none;' id='audio' controls src='./music/music1.mp3'></audio>
+        <audio style='display: none;' id='audio' controls src={{asset('music/music1.mp3')}}></audio>
 	
 	<div id="page" ">
 	<nav class="fh5co-nav" role="navigation">
 		<div class="container">
 			<div class="row">
 				<div class="col-xs-2">
-					<div id="fh5co-logo"><a href="index.html">Bubu Wedding<strong>.</strong></a></div>
+					<div id="fh5co-logo"><a >Bubu Wedding<strong>.</strong></a></div>
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
@@ -98,7 +98,7 @@ function music(){
 		</div>
 	</nav>
 
-	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(images/img1.jpg);" data-stellar-background-ratio="0.5">
+	<header id="fh5co-header" class="fh5co-cover" role="banner" style="background-image:url(../images/img1.jpg);" data-stellar-background-ratio="0.5">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -149,7 +149,7 @@ function music(){
 		</div>
 	</div>
 
-	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(images/img2.jpg);">
+	<div id="fh5co-event" class="fh5co-bg" style="background-image:url(../images/img2.jpg);">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -214,7 +214,7 @@ function music(){
 				<div class="col-md-12 col-md-offset-0">
 					<ul class="timeline animate-box">
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/st1.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(../images/st1.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First We Meet</h3>
@@ -226,7 +226,7 @@ function music(){
 							</div>
 						</li>
 						<li class="timeline-inverted animate-box">
-							<div class="timeline-badge" style="background-image:url(images/st2.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(../images/st2.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">First Date</h3>
@@ -238,7 +238,7 @@ function music(){
 							</div>
 						</li>
 						<li class="animate-box">
-							<div class="timeline-badge" style="background-image:url(images/st3.jpg);"></div>
+							<div class="timeline-badge" style="background-image:url(../images/st3.jpg);"></div>
 							<div class="timeline-panel">
 								<div class="timeline-heading">
 									<h3 class="timeline-title">In A Relationship</h3>
@@ -268,7 +268,7 @@ function music(){
 				<div class="col-md-12">
 					<ul id="fh5co-gallery-list">
 						
-						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(images/ab1.jpg);"> 
+						<li class="one-third animate-box " data-animate-effect="fadeIn" style="background-image: url(../images/ab1.jpg);"> 
                             <a href="#" class="color-1">
 							<div class="case-studies-summary">
 								<span>xx Photos</span>
@@ -276,7 +276,7 @@ function music(){
 							</div>
 						</a>
 					</li>
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/ab2.jpg); ">
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(../images/ab2.jpg); ">
 						<a href="#" class="color-2">
 							<div class="case-studies-summary">
 								<span>xx Photos</span>
@@ -286,7 +286,7 @@ function music(){
 					</li>
 
 
-					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/ab3.jpg); ">
+					<li class="one-third animate-box" data-animate-effect="fadeIn" style="background-image: url(../images/ab3.jpg); ">
 						<a href="#" class="color-3">
 							<div class="case-studies-summary">
 								<span>xx Photos</span>
@@ -515,7 +515,7 @@ function music(){
 	</div> -->
 
 
-	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(images/img_bg_4.jpg);">
+	<div id="fh5co-started" class="fh5co-bg" style="background-image:url(../images/img_bg_4.jpg);">
 		<div  class="overlay"></div>
 		<div class="container">
 			<div class="row animate-box">
